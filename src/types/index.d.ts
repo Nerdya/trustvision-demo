@@ -4,7 +4,7 @@ declare global {
   }
 
   interface TVWebSDKInstance {
-    readIDCardUIOnly: () => void;
+    readIDCardUIOnly: (params: any) => void;
     livenessDetection: (options: { mode: string }) => void;
     runPreloadEKYCResources: () => void;
     destroyView: () => void;
