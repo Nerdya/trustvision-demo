@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "dev": "node --max_old_space_size=8192 node_modules/@angular/cli/bin/ng serve --host 0.0.0.0 --port 4001",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -18,8 +19,10 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@tsocial/tvweb-sdk": "^5.17.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "yarn": "^1.22.21",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
