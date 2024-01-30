@@ -28,7 +28,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              { "glob": "**/*", "input": "./node_modules/@tsocial/tvweb-sdk/build/", "output": "/assets/" }
+              { "glob": "**/*", "input": "./node_modules/@tsocial/tvweb-sdk/build/", "output": "/custom-assets/" }
             ],
             "styles": [
               "src/styles.scss"
@@ -92,7 +92,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              { "glob": "**/*", "input": "./node_modules/@tsocial/tvweb-sdk/build/", "output": "/assets/" }
+              { "glob": "**/*", "input": "./node_modules/@tsocial/tvweb-sdk/build/", "output": "/custom-assets/" }
             ],
             "styles": [
               "src/styles.scss"
