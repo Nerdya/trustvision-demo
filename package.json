@@ -19,7 +19,6 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
-    "@tsocial/tvweb-sdk": "^5.17.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "yarn": "^1.22.21",
