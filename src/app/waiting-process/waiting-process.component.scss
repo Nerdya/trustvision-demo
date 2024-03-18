@@ -1,0 +1,12 @@
+.popup-waiting-process {
+    height: 30vh;
+    text-align: center;
+    border-radius: 5px;
+    .waiting-content {
+        margin: 0;
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}

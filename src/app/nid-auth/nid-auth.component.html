@@ -1,0 +1,18 @@
+<div class="notify-authn notify-paper-identify">
+    <p class="title-main mt-3">{{info?.titleMain}}</p>
+    <p class="title-above py-2">{{info?.titleAbove}}</p>
+    <p class="title-add pb-2">{{info?.titleAdd}}</p>
+    <div class="row content-main" *ngFor="let item of info?.list">
+        <div class="col-2 text-center">
+            <img class="img-content" src="{{item?.linkImg}}" alt="">
+        </div>
+        <div class="col-10">
+            <span class="title-content">{{item?.content}}</span>
+        </div>
+    </div>
+    <div class="bottom-box">
+        <button class="btn auto-info" [class.btn-info]="hideManualInput" (click)="onStartReadIDCard()">{{info?.button}}</button>
+    </div>
+</div>
+
+<div id="tv-container"></div>

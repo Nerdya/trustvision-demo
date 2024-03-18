@@ -1,0 +1,21 @@
+.expire-session-container {
+    background-color: #F5F5F5;
+    min-height: unset !important;
+    .title-main {
+        margin-bottom: 12px;
+    }
+    .title-above {
+        color: #A3A3A3;
+    }
+    .notify-body{
+        position: relative;
+        transform: translateY(15vh);
+        img {
+            position: relative;
+            left: 10px;
+        }
+    }
+    .close-icon {
+        float: right;
+    }
+}

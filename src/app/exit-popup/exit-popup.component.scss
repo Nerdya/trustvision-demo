@@ -1,0 +1,51 @@
+.popup-exit {
+    height: 30vh;
+    text-align: center;
+    border-radius: 5px;
+    .exit-content {
+        margin: 0;
+        position: relative;
+        top: 45%;
+        -ms-transform: translateY(-50%);
+        .description-content {
+            color: #A3A3A3;
+            padding: 0 7vw;
+        }
+        .header-content {
+            margin-bottom: 12px !important;
+        }
+    }
+    .btn{
+        height: 48px;
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    .btn-submit{
+        color: #FFFFFF;
+        background-color: #171717;
+    }
+    .btn-info{
+        color: #FFFFFF;
+        background-color: #6563D4;
+        width: auto;
+        position: fixed;
+        right: 16px;
+        left: 16px;
+        bottom: 90px;
+        z-index: 97;
+    }
+    .btn-go-home {
+        color: #6563D4;
+        background-color: rgba(5, 5, 255, 0.06);
+        width: auto;
+        position: fixed;
+        right: 16px;
+        left: 16px;
+        bottom: 32px;
+        z-index: 97;
+    }
+    .continue-progress {
+        float: right;
+    }
+}

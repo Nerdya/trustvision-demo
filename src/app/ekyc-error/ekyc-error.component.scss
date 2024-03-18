@@ -1,0 +1,17 @@
+.notify-body {
+    transform: translateY(30%);
+    .title-above {
+        white-space: pre-line;
+    }
+    .camera-container {
+        .camera-item {
+            background-color: #FFFFFF;
+            border-radius: 15px;
+            .text-camera-item {
+                font-size: 14px;
+                font-weight: 500;
+                text-align: left;
+            }
+        }
+    }
+}

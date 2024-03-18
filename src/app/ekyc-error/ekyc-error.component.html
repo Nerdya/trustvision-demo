@@ -1,0 +1,26 @@
+<div class="notify hard-notify">
+    <div class="text-center notify-body">
+        <img [src]="info?.linkImg" alt="SVG Image" class="" width="128px"/>
+        <p class="title-main mt-3 mx-5">{{info?.titleMain}}</p>
+        <p class="title-above mx-5 mb-0">{{info?.titleAbove}}</p>
+        <p *ngIf="info?.note" class="title-above mx-5">{{info?.note}}</p>
+        <div *ngIf="showInstruction" class="camera-container mt-3">
+            <div class="camera-item mb-3 py-3 px-3 d-flex" (click)="copyToKeyBoard()">
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                    <div>
+                        <img class="pr-2" src="../../../assets/paso/step-one.svg" alt="step1">
+                        <span class="text-camera-item">Sao chép địa chỉ liên kết tại đây</span>
+                    </div>
+                    <img src="assets/paso/copy-icon.svg" alt="copy-icon">
+                </div>
+            </div>
+            <div class="camera-item py-3 px-3 d-flex align-items-center">
+                <div class="w-100 d-flex align-items-center">
+                    <img class="pr-3" src="../../../assets/paso/step-two.svg" alt="step2">
+                    <span class="text-camera-item">Dán địa chỉ liên kết vào trình duyệt web bạn thường dùng tiếp để tiếp tục mở thẻ</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button *ngIf="info?.button" class="btn btn-info btn-submit-hard-notice" (click)="submit()">{{info?.button}}</button>
+</div>

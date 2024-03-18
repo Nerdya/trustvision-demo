@@ -1,0 +1,26 @@
+.popup-waiting-process {
+    height: 30vh;
+    text-align: center;
+    border-radius: 5px;
+    transform: translateY(50%);
+    .waiting-content {
+        margin: 0;
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .instruction-text {
+            font-size: 14px;
+            color: #A3A3A3;
+            font-weight: 400;
+        }
+    }
+    .popup-icon {
+        width: 120px;
+        height: 120px;
+    }
+}

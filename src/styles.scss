@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin     : 0;
+  box-sizing : border-box;
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+}
+body{
+  height: auto;
+}
+.ant-notification-notice {
+  display: flex;
+  position: relative;
+  width: 384px;
+  max-width: calc(100vw - 48px);
+  margin-bottom: 16px;
+  margin-left: auto;
+  padding: 16px 24px;
+  overflow: hidden;
+  line-height: 1.5715;
+  word-wrap: break-word;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+}
+.ant-notification-notice-with-icon{
+  display: flex;
+}
+
+nz-notification-container{
+  height: fit-content;
+}
+.mat-bottom-sheet-container {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  height: 85vh;
+  background-color: #F5F5F5 !important;
+  padding: 0 16px !important;
+}
+
+.mdc-evolution-chip-set__chips {
+  max-width: 100% !important;
+}
+.mat-mdc-standard-chip .mdc-evolution-chip__cell--primary,
+.mat-mdc-standard-chip .mdc-evolution-chip__action--primary,
+.mat-mdc-standard-chip .mat-mdc-chip-action-label {
+  overflow: hidden !important;
+}
+.grecaptcha-badge {
+  visibility: hidden;
+}
+.mdc-line-ripple {
+  display: none;
+}
+.mat-mdc-radio-button.mat-mdc-radio-checked .mat-ripple-element {
+  background-color: #FFFFFF !important;
+}
+.mat-mdc-radio-button.mat-mdc-radio-checked .mdc-radio__background::before {
+  background-color: #FFFFFF !important;
+}
+.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled:checked + .mdc-radio__background .mdc-radio__outer-circle {
+  border-color: #FFFFFF !important;
+}
+.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled + .mdc-radio__background .mdc-radio__inner-circle {
+  border-color: #FFFFFF !important;
+}

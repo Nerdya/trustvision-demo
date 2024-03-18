@@ -1,15 +1,4 @@
-<div>
-  <button (click)="onStartReadIDCard()">Start Read ID Card</button>
+<div id="container" class="paso-home px-3">
+  <app-header-paso></app-header-paso>
+  <router-outlet></router-outlet>
 </div>
-
-<br />
-
-<select (change)="onChangeLivenessMode($event)">
-  <option value="active">Active</option>
-  <option value="passive">Passive</option>
-</select>
-<div>
-  <button (click)="onLivenessDetection()">Start Liveness Detection</button>
-</div>
-
-<div id="tv-container"></div>

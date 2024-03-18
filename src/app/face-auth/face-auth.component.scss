@@ -1,0 +1,32 @@
+.notify-authn{
+    .content-main{
+        background-color: #FFFFFF;
+        margin: 10px 0;
+        min-height: 72px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        .img-content{
+            width: 50px;
+            height: 50px;
+        }
+        .title-content {
+            font-weight: 600;
+            font-size: 14px;
+            color: #141414;
+            line-height: 20px;
+        }
+    }
+    .title-add {
+        font-size: 16px;
+        font-weight: 600;
+        color: #141414;
+    }
+}
+
+::ng-deep {
+    // To be in front of TVWebSDK popup (z-index: 2000)
+    .cdk-overlay-container {
+        z-index: 2001;
+    }
+}
