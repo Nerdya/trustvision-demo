@@ -80,8 +80,3 @@ export type SubscriptionHandler<T> = {
     error?: (error: any) => void;
     complete?: () => void;
 };
-
-export enum EkycFlow {
-    HYPER_VERGE = 'Hyperverge',
-    TRUSTING_SOCIAL = 'Trusting_Social',
-}
